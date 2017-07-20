@@ -22,32 +22,6 @@
   </head>
 
   <body>
-
-
-
-
-  <form>
-  	<input id="inputArtist" type="text"> 
-  	<button id="btnSearch">Search
-  	</button>
-  </form>
-
-  <div id="artist"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="container">
       <div id="login">
         <h1>This is an example of the Authorization Code flow</h1>
@@ -61,6 +35,28 @@
         <button class="btn btn-default" id="obtain-new-token">Obtain new token using the refresh token</button>
       </div>
     </div>
+
+
+
+
+    
+      <form>
+        <input id="query" type="text"> 
+        <button id="search">Search
+        </button>
+      </form>
+
+      <div class="results">
+        <ul id="showResults"></ul>
+      </div>
+
+
+
+
+
+
+
+
 
     <script id="user-profile-template" type="text/x-handlebars-template">
       <h1>Logged in as {{display_name}}</h1>
